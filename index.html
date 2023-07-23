@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>URL Shortener</title>
+  </head>
+  <body>
+    <div class="container">
+      <heading>URL Link Shortener</heading>
+      <input type="text" id="longURL" placeholder="Enter Your URL" autofocus />
+      <button id="generate">Generate</button>
+      <div class="shorter">
+        <input
+          type="text"
+          id="shortURL"
+          placeholder="Shorten URL Will Be Here"
+          disabled
+        />
+        <button id="copy"><i class="fa-regular fa-copy"></i></button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
